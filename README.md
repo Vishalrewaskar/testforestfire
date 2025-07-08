@@ -1,60 +1,69 @@
-🔥 Algerian Forest Fires - End-to-End ML Project
-This project involves an end-to-end machine learning pipeline using the Algerian Forest Fires Dataset, focused on predicting fire risk based on various weather and fire index factors. The project applies regression models, selects the best-performing model, and deploys it using a Flask web application.
+<div align="center">
 
-📌 Project Highlights
-✅ Started an end-to-end machine learning pipeline
-✅ Applied various regression models to the dataset
-✅ Evaluated and selected the best-performing model
-✅ Saved the model using Pickle serialization
-✅ Deployed the model using Flask for real-time predictions
+# 🔥 Algerian Forest Fire Prediction (ML Project)
 
-📊 Dataset Overview
-Total Instances: 244
+Predicting forest fires using weather and fire index data from two regions in Algeria.
 
-Regions Covered:
+</div>
 
-Bejaia (Northeast Algeria) - 122 records
+---
 
-Sidi Bel-abbes (Northwest Algeria) - 122 records
+<div align="center">
 
-Time Period: June 2012 – September 2012
+## 🧹 Problem We Solved
 
-Target Class:
+Can we predict forest fire risk based on weather data?
+Yes. We built a machine learning model that classifies fire risk using historical data.
 
-Fire: 138 instances
+</div>
 
-Not Fire: 106 instances
+---
 
------
-🛠 Tech Stack
-Python
+<div align="center">
 
-Pandas, NumPy, Scikit-learn, Matplotlib
+## ⚙️ Our Approach
 
-Flask (for web deployment)
+</div>
 
-Pickle (for model saving)
+* Cleaned the dataset and handled missing values
+* Explored the data for patterns and insights
+* Applied various regression models
+* Selected the best-performing model
+* Saved the model using Pickle
+* Deployed it using Flask for real-time prediction
 
-🧠 Machine Learning Workflow
-Data Preprocessing
+---
 
-Cleaning, handling missing values, feature engineering
+<div align="center">
 
-Modeling
+## 📊 Dataset Summary
 
-Applied multiple regression models
+</div>
 
-Evaluated using appropriate metrics
+* **Total Instances:** 244
+* **Regions:** Bejaia (122) and Sidi Bel-abbes (122)
+* **Duration:** June to September 2012
+* **Classes:**
 
-Model Selection
+  * Fire – 138 instances
+  * Not Fire – 106 instances
 
-Best model selected based on performance
+---
 
-Saved using pickle
+<div align="center">
 
-Deployment
+## 🔍 Features Used
 
-Built a simple Flask web app
+</div>
 
-Integrated the model for real-time predictions
---------
+* **Weather Data:** `Temp`, `RH`, `Ws`, `Rain`
+* **FWI Indices:** `FFMC`, `DMC`, `DC`, `ISI`, `BUI`, `FWI`
+* **Target:** `Classes` (Fire / Not Fire)
+
+---
+
+<div align="center">
+
+Built with ❤️ using Python, Scikit-learn, and Flask.
+
+</div>
